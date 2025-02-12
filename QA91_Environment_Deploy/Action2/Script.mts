@@ -51,13 +51,7 @@ End If
 
 Browser("Site Admin - Spaces - ValueEdg").Page("Site Admin - Spaces - ValueEdg").WebEdit("Search parameters").Set "FTE_AI_ACCESS_KEY"
 wait 5
-Set FSO=CreateObject("Scripting.FileSystemObject")
-Set FS=FSO.OpenTextFile("C:\design_env_deploy\api_key.txt")
-api_key = FS.ReadLine
-FS.Close
 
-Set FS=Nothing
-Set FSO=Nothing
 
 InputValueInSiteParameter api_key
 'InputValueInSiteParameter "clientID=fte_ai_key_frankfurt_temp_n0edpr98klyz0u9ng3vwp78xo;secret=-15924730165214451105P;tenant=460005;url=https://ftai-eur.saas.microfocus.com/;"

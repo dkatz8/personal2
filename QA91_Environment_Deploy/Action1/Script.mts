@@ -13,9 +13,9 @@ wait 10
 Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebButton("ADD NEW SUBSCRIPTION").Click
 Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebElement("Assign account").Click
 
-Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebEdit("Account Name").Set "QA91"
+Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebEdit("Account Name").Set "QA3"
 Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebButton("WebButton").Click
-Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebElement("MQM QA91").Click
+Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebElement("MQM QA3").Click
 
 AIUtil("combobox", "Reason Type:").Click
 Browser("SaaS Back Office Portal").Page("SaaS Back Office Portal").WebElement("SaaS Flex Order").Click
@@ -56,7 +56,7 @@ AIUtil("input", "ADD NEW TENANT").Type "Design nightly aviator tenant " + "_" + 
 AIUtil("radio_button", "Farm").SetState "On"
 
 AIUtil("combobox", "Select farm").Click
-AIUtil.FindTextBlock(micAnyText, micWithAnchorAbove, AIUtil.FindTextBlock("Select farm")).Type "qa91"
+AIUtil.FindTextBlock(micAnyText, micWithAnchorAbove, AIUtil.FindTextBlock("Select farm")).Type "qa3"
 AIUtil.FindTextBlock("MQM AWS QA91: Asia").Click
 
 AIUtil("combobox", "Select the data center's time zone").Click
