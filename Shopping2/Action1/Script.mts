@@ -22,7 +22,7 @@ Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("telephone").Set "05098
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping" @@ script infofile_;_ZIP::ssf116.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click @@ script infofile_;_ZIP::ssf117.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery" @@ script infofile_;_ZIP::ssf118.xml_;_
-Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
+Browser("Browser_3").Page("Afrekenen - Magento").WebButton("buy now").Click @@ script infofile_;_ZIP::ssf89.xml_;_
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click @@ script infofile_;_ZIP::ssf92.xml_;_
 
 
