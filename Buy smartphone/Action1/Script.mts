@@ -1,2 +1,1 @@
-﻿Browser("Your Store").Page("Your Store").Link("Phones & PDAs").Click @@ script infofile_;_ZIP::ssf1.xml_;_
-Browser("Your Store").Page("Phones & PDAs").WebButton("Add to Cart").Click @@ script infofile_;_ZIP::ssf4.xml_;_
+﻿Browser("Just a moment...").Navigate "https://demo.opencart.com/" @@ hightlight id_;_66570_;_script infofile_;_ZIP::ssf6.xml_;_
