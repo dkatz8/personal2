@@ -27,7 +27,7 @@ Wait 5
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping" @@ script infofile_;_ZIP::ssf116.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click @@ script infofile_;_ZIP::ssf117.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery" @@ script infofile_;_ZIP::ssf118.xml_;_
-Waite 4
+Wait 4
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click @@ script infofile_;_ZIP::ssf92.xml_;_
 
