@@ -2,7 +2,7 @@
 Browser("Tanks - Tops - Men - Magento").Navigate "https://magento2demo.firemultimedia.nl/"
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Set "bags"
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Submit
-wait 60
+wait 150
 Browser("Browser_3").Page("Zoekresultaten voor: ‘bug’").Image("Push It Messenger Bag").Click
 Browser("Browser_3").Page("Push It Messenger Bag").Link("Reviews 3").Click @@ script infofile_;_ZIP::ssf99.xml_;_
 Browser("Browser_3").Page("Push It Messenger Bag").Link("Meer informatie").Click @@ script infofile_;_ZIP::ssf100.xml_;_
@@ -10,7 +10,7 @@ Browser("Browser_3").Page("Push It Messenger Bag").Image("Fusion Backpack").Clic
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("3  Reviews").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Meer informatie").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Gegevens").Click
-wait 20
+wait 150
 Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("In Winkelwagen").Click @@ script infofile_;_ZIP::ssf105.xml_;_
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Winkelwagen 1 1 items").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("Ga door naar afrekenen").Click @@ script infofile_;_ZIP::ssf107.xml_;_
