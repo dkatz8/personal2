@@ -1,5 +1,5 @@
 ﻿Browser("Tanks - Tops - Men - Magento").Page("Openbare Magento 2 demo").Sync
-Browser("Tanks - Tops - Men - Magento").Navigate "https://wtfifyouexample.com/nonexistentpage"
+Browser("Tanks - Tops - Men - Magento").Navigate "https://magento2demo.firemultimedia.nl/"
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Set "bags"
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Submit
 Browser("Browser_3").Page("Zoekresultaten voor: ‘bug’").Image("Push It Messenger Bag").Click
@@ -21,6 +21,6 @@ Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("postcode").Set "321456
 Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("telephone").Set "050986552"
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping"
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click
-Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery"
+Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Credit_card_payment").Select "Credit_card"
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click
