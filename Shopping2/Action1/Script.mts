@@ -8,7 +8,7 @@ Browser("Browser_3").Page("Push It Messenger Bag").Link("Meer informatie").Click
 Browser("Browser_3").Page("Push It Messenger Bag").Image("Fusion Backpack").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("3  Reviews").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Meer informatie").Click
-Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Gegevens").Click @@ script infofile_;_ZIP::ssf104.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Gegevens").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("In Winkelwagen").Click @@ script infofile_;_ZIP::ssf105.xml_;_
 Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Winkelwagen 1 1 items").Click
 Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("Ga door naar afrekenen").Click @@ script infofile_;_ZIP::ssf107.xml_;_
