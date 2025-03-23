@@ -1,5 +1,5 @@
 ﻿Browser("Tanks - Tops - Men - Magento").Page("Openbare Magento 2 demo").Sync
-Browser("Tanks - Tops - Men - Magento").Navigate "https://wtfifyouexample.com/nonexistentpage"
+Browser("Tanks - Tops - Men - Magento").Navigate "https://magento2demo.firemultimedia.nl/"
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Set "bags" @@ script infofile_;_ZIP::ssf96.xml_;_
 Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Submit
 Browser("Browser_3").Page("Zoekresultaten voor: ‘bug’").Image("Push It Messenger Bag").Click
