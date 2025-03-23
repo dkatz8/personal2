@@ -23,4 +23,3 @@ Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "f
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Credit_card_payment").Select "Credit_card"
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
-Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click
